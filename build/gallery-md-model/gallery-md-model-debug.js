@@ -1,4 +1,4 @@
-YUI.add('gallery-md-model', function(Y) {
+YUI.add('gallery-md-model', function (Y, NAME) {
 
 /**
 Record-based data model with APIs for getting, setting, validating, and
@@ -1682,4 +1682,4 @@ to override the parse() method to parse non-generic server responses.
 
 
 
-}, 'gallery-2012.09.05-20-01' ,{requires:['base'], skinnable:false});
+}, '@VERSION@', {"requires": ["base"], "skinnable": false});
